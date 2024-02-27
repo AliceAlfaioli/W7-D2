@@ -26,18 +26,6 @@ cancel.onclick = function () {
   localStorage.removeItem("nome");
 };
 
-// function mostraValoreSalavto() {
-//   const valoreSalvato = localStorage.getItem("nome");
-//   const elementoMostrato = document.getElementById("valore");
-
-//   if (valoreSalvato) {
-//     elementoMostrato.textContent = "Nome:" + valoreSalvato;
-//   } else {
-//     elementoMostrato.textContent = "Nome non salvato";
-//   }
-// }
-// mostraValoreSalavto();
-
 ////////////////C O N T A T O R E /////////////////////////////////////////////////////////////
 
 function updateCounter() {
